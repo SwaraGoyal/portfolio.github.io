@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+               
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#connectme">Connect More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD</h6>
+                    <h1>I’m Swara Goyal<br><span>CSE Student</span><br>based in India.</h1>
+                    <div class="mt-4">
+                        <a class="main-btn"download href="resume/My Resume (1).pdf">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img decoding="async" src="./images/self.jpeg" class="img-fluid rounded-3" alt="About Us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>My name is Swara Goyal. I'm a BTech student at Government Women Engineering College, Ajmer , Computer Science Department. I was born and raised in Rajasthan.
+                           </p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main Skills</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-Achievements-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Achievements" type="button" role="tab" aria-controls="pills-Achievements"
+                                    aria-selected="false">Achievements</button>
+                            </li>
+                           
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>C/CPP Programming</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>DSA</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>MySQL</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">75%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>HTML, CSS , JavaScript</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-Achievements" role="tabpanel"
+                                aria-labelledby="pills-Achievements-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Siemens Scholarship Program
+                                            <span>- Scholar</span></a> 2020 - 2024
+                                    </li>
+                                    <li><a href="#">Ananya Atlassian Mentorship
+                                            <span>- Mentee</span></a> April 2023
+                                    </li>
+                                    <li><a href="#">BloodConnect Foundation 
+                                            <span>- Intern</span></a> Feb 2023-March 2023
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">BTech in CSE<span>
+                                                - Government Women Engineering College ,Ajmer</span></a> 2024
+                                    </li>
+                                    <li><a href="#">Higher Secondary <span> -Step By Step Senior Secondary School , Alwar
+                                                </span></a> 2020
+                                    </li>
+                                    <li><a href="#">Secondary   School<span> -Step By Step Senior Secondary School , Alwar</span></a> 2018
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="hobbies">
+       <h3> Hobbies </h3> 
+        <span class="section__subtitle">I love listening to music.<br><br>Indulge your senses with my 'On Loop' playlist below while exploring my portfolio.</span>
+
+        <iframe class="music"style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4CjhFqkSeJXHqSmKBY13Gd?utm_source=generator&theme=0" width="90%" height="460" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+    </section>
+    <!-- About section exit -->
+
+    
+
+    <!-- Portfolio Sectrion -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete project</span>
+                    <h2>My Latest Project</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('./images/snake-game-2909961.webp')"></span>
+                        <a href="https://swaragoyal.github.io/snakegame.github.io/" target="_blank">SNAKE GAME</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span
+                            style="background-image: url('./images/music.jpg')"></span>
+                            <a href="hhttps://swaragoyal.github.io/melodystream.github.io/" target="_blank">MELODY STREAM</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('./images/quiz.jpg')"></span>
+                        <a href="https://swaragoyal.github.io/quiz.github.io/" target="_blank">QUIZ GAME</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('./images/tic.avif')"></span>
+                        <a href="https://swaragoyal.github.io/tictactoe.github.io/" target="_blank">TIC-TAC-TOE</a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section exit -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">Let's Say Hi</span>
+                    <h2>Hire Me.</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3">Call us directly:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="javascript:void(0)">(+91)8934562839</a>
+                        </div>
+                        <label class="col-sm-3">Contact Email:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="mailto:example@gmail.com">example@gmail.com</a>
+                        </div>
+                    </div> 
+                    <form action="connect.php" method="post">
+                        <div class="mb-4">
+                            <input type="text" class="form-control" name="name"placeholder="Your Name..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" class="form-control"name="mobile" placeholder="Your Phone..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control"name="email" placeholder="Your Email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input cols="40" rows="4" class="form-control" name="message"
+                                placeholder="Write a Message..." autocomplete="off">
+                        </div>
+
+                        <div>
+                            <a href="mailto:goyalswara@gmail.com" class="button button--flex">
+                                Send Message
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                      
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img decoding="async" src="./images/contact.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section exit -->
+
+    <!-- Footer section -->
+    <section id="connectme" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                   
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SwaraGoyal" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://in.linkedin.com/in/swara-goyal-6ba917213" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+              
+            </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0">Copyright  2023 Swara Goyal. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+   
+    <script src="https://kit.fontawesome.com/0de6766383.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Custom Js Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
